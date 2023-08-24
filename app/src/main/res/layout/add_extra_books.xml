@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="360dp"
+    android:layout_width="311dp"
+    android:orientation="vertical"
+    android:background="@color/light_grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Extra Books"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginBottom="2dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/horizontal_line"
+            android:backgroundTint="@color/grey"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quantity"
+            android:background="@drawable/rectangle_cardview"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price"
+            android:background="@drawable/rectangle_cardview"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corner_cardview"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/red"
+        android:layout_margin="10dp"
+        android:text="ADD"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+
+
+</RelativeLayout>

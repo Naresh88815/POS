@@ -50,9 +50,9 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="5dp"
                             android:text="Odysseus Box"
+                            android:textColor="@color/dark_blue"
                             android:textSize="16dp"
-                            android:textStyle="bold"
-                            android:textColor="@color/dark_blue"/>
+                            android:textStyle="bold" />
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -63,17 +63,17 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="₹ "
-                                android:textSize="16dp"
                                 android:textColor="@color/sky_blue"
-                                android:textStyle="bold"/>
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="1199"
+                                android:textColor="@color/sky_blue"
                                 android:textSize="16dp"
-                                android:textStyle="bold"
-                                android:textColor="@color/sky_blue" />
+                                android:textStyle="bold" />
 
                         </LinearLayout>
                     </LinearLayout>
@@ -90,10 +90,10 @@
                     android:background="@drawable/circle_bg"
                     android:paddingTop="10dp"
                     android:text="50"
+                    android:textAlignment="center"
                     android:textColor="@color/sky_blue"
                     android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textAlignment="center" />
+                    android:textStyle="bold" />
 
             </RelativeLayout>
 
