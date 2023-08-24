@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        android:id="@+id/navigate_home"
+    />
+
+    <item
+        android:title="Orders"
+        android:icon="@drawable/orders_icon"
+        android:id="@+id/navigate_orders"
+        />
+
+    <item
+        android:title="POS"
+        android:icon="@drawable/pos_icon"
+        android:id="@+id/navigate_pos"
+        />
+
+    <item
+        android:title="Box"
+        android:icon="@drawable/box_icon"
+        android:id="@+id/navigate_box"
+        />
+
+    <item
+        android:title="More"
+        android:icon="@drawable/more_icon"
+        android:id="@+id/navigate_more"
+        />
+
+</menu>
