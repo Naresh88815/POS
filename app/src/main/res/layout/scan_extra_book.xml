@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="420dp"
-    android:layout_width="360dp"
+    android:layout_width="match_parent"
     android:orientation="vertical"
     android:background="@color/light_grey">
 
@@ -35,7 +35,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:layout_width="245dp"
+                android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:hint="Enter ISBN"
                 android:background="@drawable/corner_cardview"
@@ -45,7 +45,7 @@
 
             <ImageButton
                 android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_height="44dp"
                 android:layout_alignParentEnd="true"
                 android:background="@drawable/camera_icon"/>
 
