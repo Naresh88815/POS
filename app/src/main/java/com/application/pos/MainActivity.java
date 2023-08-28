@@ -5,10 +5,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.SearchView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
@@ -29,20 +29,6 @@ public class MainActivity extends AppCompatActivity {
         topBarLayout = findViewById(R.id.top_bar_layout);
         buttons_ltb = findViewById(R.id.buttons_ltb);
         searchbar = findViewById(R.id.search_bar);
-
-        buttons_ltb.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
-
-        searchbar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-            }
-        });
         ltbLogo = findViewById(R.id.ltbLogo);
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
