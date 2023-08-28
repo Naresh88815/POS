@@ -32,6 +32,15 @@
 
         <activity android:name=".PaymentActivity"
             android:exported="true"></activity>
+
+        <activity android:name=".BooksActivity"
+            android:exported="true"></activity>
+
+        <activity android:name=".AddBooksActivity"
+            android:exported="true"></activity>
+
+        <activity android:name=".AddBooksListActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
