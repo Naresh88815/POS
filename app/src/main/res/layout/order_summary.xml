@@ -476,10 +476,10 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
+
                     android:background="@drawable/button_outline"
                     android:orientation="horizontal"
                     android:padding="8dp">
@@ -490,32 +490,34 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_marginRight="30dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:layout_alignParentStart="true">
 
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:padding="2dp"
+                            android:layout_marginTop="5dp"
                             android:src="@drawable/cash_logo" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="10dp"
                             android:text="Cash"
-                            android:textSize="20dp"
-                            android:textStyle="bold" />
+                            android:textSize="18dp" />
 
                     </LinearLayout>
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="true" />
+                        android:checked="true"
+                        android:layout_alignParentEnd="true"/>
 
-                </LinearLayout>
+                </RelativeLayout>
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
@@ -530,31 +532,32 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginRight="30dp"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:layout_alignParentStart="true">
 
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:padding="2dp"
-                            android:src="@drawable/cash_logo" />
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/online_icon" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="Cash"
-                            android:textSize="20dp"
-                            android:textStyle="bold" />
+                            android:layout_marginTop="10dp"
+                            android:text="Online"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false" />
+                        android:checked="false"
+                        android:layout_alignParentEnd="true"/>
 
-                </LinearLayout>
+                </RelativeLayout>
 
             </LinearLayout>
 
@@ -564,7 +567,7 @@
                 android:orientation="horizontal"
                 android:layout_marginBottom="200dp">
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
@@ -577,71 +580,75 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginRight="30dp"
+                        android:layout_alignParentStart="true"
                         android:orientation="horizontal">
 
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:padding="2dp"
-                            android:src="@drawable/cash_logo" />
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/online_icon" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="Cash"
-                            android:textSize="20dp"
-                            android:textStyle="bold" />
+                            android:layout_marginTop="10dp"
+                            android:text="Partially"
+                            android:textSize="18dp" />
 
                     </LinearLayout>
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false" />
+                        android:checked="false"
+                        android:layout_alignParentEnd="true"/>
 
-                </LinearLayout>
+                </RelativeLayout>
 
-                <LinearLayout
+                <RelativeLayout
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_marginLeft="10dp"
                     android:background="@drawable/button_outline"
                     android:orientation="horizontal"
-                    android:padding="8dp">
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp">
 
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginRight="30dp"
+                        android:layout_alignParentStart="true"
                         android:orientation="horizontal">
 
                         <ImageView
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:padding="2dp"
-                            android:src="@drawable/cash_logo" />
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/influencer_icon" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginTop="5dp"
-                            android:text="Cash"
-                            android:textSize="20dp"
-                            android:textStyle="bold" />
+                            android:layout_marginTop="10dp"
+                            android:text="Influencer"
+                            android:textSize="18dp"
+                            />
 
                     </LinearLayout>
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:checked="false" />
+                        android:checked="false"
+                        android:layout_alignParentEnd="true"/>
 
-                </LinearLayout>
+                </RelativeLayout>
 
             </LinearLayout>
         </LinearLayout>

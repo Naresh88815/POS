@@ -62,8 +62,8 @@
             </LinearLayout>
 
             <ImageButton
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="30dp"
                 android:layout_marginEnd="15dp"
@@ -88,7 +88,8 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/img"
+                    android:background="@drawable/red_circle"
+                    android:src="@drawable/white_box"
                     android:padding="5dp"/>
 
                 <LinearLayout
@@ -127,7 +128,8 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/img"
+                    android:background="@drawable/red_circle"
+                    android:src="@drawable/white_box"
                     android:padding="5dp"/>
 
                 <LinearLayout
@@ -166,13 +168,14 @@
                 android:layout_height="40dp"
                 android:layout_margin="10dp"
                 android:padding="5dp"
-                android:src="@drawable/edit_icon" />
+                android:src="@drawable/white_box"
+                android:background="@drawable/red_circle"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="All orders"
+                android:text="Add Exp"
                 android:textSize="20dp" />
 
         </LinearLayout>
@@ -189,7 +192,33 @@
                 android:layout_height="40dp"
                 android:layout_margin="10dp"
                 android:padding="5dp"
-                android:src="@drawable/edit_icon" />
+                android:src="@drawable/white_box"
+                android:background="@drawable/red_circle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="All orders"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/holdOrdersBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/corner_cardview"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:src="@drawable/white_box"
+                android:background="@drawable/red_circle"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -212,7 +241,8 @@
                 android:layout_height="40dp"
                 android:layout_margin="10dp"
                 android:padding="5dp"
-                android:src="@drawable/edit_icon" />
+                android:src="@drawable/heart_icon"
+                android:background="@drawable/yellow_circle"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -223,28 +253,29 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/corner_cardview"
-            android:orientation="horizontal">
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:background="@drawable/corner_cardview"-->
+<!--            android:orientation="horizontal">-->
 
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_margin="10dp"
-                android:padding="5dp"
-                android:src="@drawable/edit_icon" />
+<!--            <ImageView-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:padding="5dp"-->
+<!--                android:src="@drawable/last_page_icon"-->
+<!--                android:background="@drawable/blue_circle"/>-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Manage Events"
-                android:textSize="20dp" />
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center_vertical"-->
+<!--                android:text="Manage Events"-->
+<!--                android:textSize="20dp" />-->
 
-        </LinearLayout>
+<!--        </LinearLayout>-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -268,8 +299,8 @@
                         android:layout_height="40dp"
                         android:layout_margin="10dp"
                         android:padding="5dp"
-                        android:src="@drawable/edit_icon"
-                        android:layout_alignParentStart="true"/>
+                        android:src="@drawable/last_page_icon"
+                        android:background="@drawable/sky_blue_circle"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -307,7 +338,8 @@
                         android:layout_height="40dp"
                         android:layout_margin="10dp"
                         android:padding="5dp"
-                        android:src="@drawable/edit_icon"
+                        android:src="@drawable/books_icon"
+                        android:background="@drawable/purple_circle"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -347,7 +379,8 @@
                         android:layout_height="40dp"
                         android:layout_margin="10dp"
                         android:padding="5dp"
-                        android:src="@drawable/edit_icon"
+                        android:src="@drawable/books_icon"
+                        android:background="@drawable/purple_circle"
                         android:layout_alignParentStart="true"/>
 
                     <TextView
@@ -388,7 +421,8 @@
                         android:layout_height="40dp"
                         android:layout_margin="10dp"
                         android:padding="5dp"
-                        android:src="@drawable/edit_icon"
+                        android:src="@drawable/vendors_icon"
+                        android:background="@drawable/blue_circle"
                         android:layout_alignParentStart="true"/>
 
                     <TextView

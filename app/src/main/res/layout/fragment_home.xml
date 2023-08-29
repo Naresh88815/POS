@@ -16,82 +16,83 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:id="@+id/leftLayout"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_alignParentStart="true"
                 android:background="@drawable/corner_cardview"
-                android:padding="10dp">
+                android:padding="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/rightLayout">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/orders_blue_icon"
                     android:padding="5dp"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="60dp">
+                    android:layout_marginStart="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1565"
-                        android:textSize="20dp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Orders"
-                        android:textSize="16dp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
             </LinearLayout>
-
 
             <LinearLayout
-                android:layout_width="wrap_content"
+                android:id="@+id/rightLayout"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_alignParentEnd="true"
                 android:background="@drawable/corner_cardview"
-                android:padding="10dp">
+                android:padding="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/leftLayout">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/customer_blue_icon"
                     android:padding="5dp"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="60dp">
+                    android:layout_marginStart="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1565"
-                        android:textSize="20dp"
+                        android:textSize="20sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Orders"
-                        android:textSize="16dp" />
+                        android:text="Customers"
+                        android:textSize="16sp" />
                 </LinearLayout>
             </LinearLayout>
-
-
         </RelativeLayout>
+
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -100,25 +101,24 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_alignParentStart="true"
                 android:background="@drawable/corner_cardview"
                 android:padding="10dp">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/img"
+                    android:src="@drawable/boxes_left_icon"
                     android:padding="5dp"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="60dp">
+                    android:layout_marginLeft="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -130,7 +130,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Orders"
+                        android:text="Boxes Left"
                         android:textSize="16dp" />
                 </LinearLayout>
             </LinearLayout>
@@ -145,18 +145,17 @@
                 android:padding="10dp">
 
                 <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/img"
+                    android:src="@drawable/customer_blue_icon"
                     android:padding="5dp"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="60dp">
+                    android:layout_marginLeft="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -168,7 +167,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Orders"
+                        android:text="Last Page"
                         android:textSize="16dp" />
                 </LinearLayout>
             </LinearLayout>
