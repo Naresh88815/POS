@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/top_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,44 +20,36 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ltb_logo" />
 
-        <androidx.appcompat.widget.SearchView
-            android:id="@+id/search_bar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp" />
-
         <LinearLayout
-            android:id="@+id/buttons_ltb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/btn_bg"
-            android:gravity="right"
-            android:orientation="horizontal"
-            android:padding="1dp">
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
 
-            <Button
+            <ImageView
+                android:id="@+id/search_bar"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:backgroundTint="@color/yellow"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:text="LTB Bangalore"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:src="@drawable/baseline_search_24" />
+
+            <TextView
+                android:id="@+id/change_event_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_bg"
+                android:drawableRight="@drawable/baseline_arrow_drop_down_24"
+                android:drawablePadding="5dp"
+                android:padding="10dp"
+                android:text="Event Not found"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold" />
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:background="@color/yellow"
-                android:paddingLeft="10dp"
-                android:paddingRight="20dp"
-                android:src="@drawable/drop_down" />
         </LinearLayout>
 
-
-    </LinearLayout>
+    </RelativeLayout>
 
     <!-- Fragment container -->
     <FrameLayout

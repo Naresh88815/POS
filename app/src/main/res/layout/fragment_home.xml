@@ -16,19 +16,17 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:id="@+id/leftLayout"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:background="@drawable/corner_cardview"
-                android:padding="10dp"
                 android:layout_alignParentStart="true"
-                android:layout_centerVertical="true"
-                android:layout_toStartOf="@+id/rightLayout">
+                android:background="@drawable/corner_cardview"
+                android:padding="10dp">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_gravity="center"
                     android:src="@drawable/orders_blue_icon"
                     android:padding="5dp"/>
 
@@ -36,37 +34,36 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginStart="10dp">
+                    android:layout_marginLeft="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1565"
-                        android:textSize="20sp"
+                        android:textSize="20dp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Orders"
-                        android:textSize="16sp" />
+                        android:textSize="16dp" />
                 </LinearLayout>
             </LinearLayout>
 
+
             <LinearLayout
-                android:id="@+id/rightLayout"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:background="@drawable/corner_cardview"
-                android:padding="10dp"
                 android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
-                android:layout_toEndOf="@+id/leftLayout">
+                android:background="@drawable/corner_cardview"
+                android:padding="10dp">
 
                 <ImageView
                     android:layout_width="50dp"
                     android:layout_height="50dp"
+                    android:layout_gravity="center"
                     android:src="@drawable/customer_blue_icon"
                     android:padding="5dp"/>
 
@@ -74,24 +71,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginStart="10dp">
+                    android:layout_marginLeft="10dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="1565"
-                        android:textSize="20sp"
+                        android:textSize="20dp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Customers"
-                        android:textSize="16sp" />
+                        android:textSize="16dp" />
                 </LinearLayout>
             </LinearLayout>
         </RelativeLayout>
-
 
         <RelativeLayout
             android:layout_width="match_parent"
