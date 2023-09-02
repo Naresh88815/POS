@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background (Outline) -->
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+            <stroke
+                android:color="#000000"
+                android:width="1dp" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+
+    <!-- Text -->
+    <item android:bottom="4dp">
+        <shape>
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>

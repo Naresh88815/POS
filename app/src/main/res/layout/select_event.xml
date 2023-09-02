@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Select Event"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:padding="5dp"
             android:layout_marginBottom="2dp"/>
@@ -51,7 +51,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Lock The Box Bangalore"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
                     />
 
@@ -59,7 +59,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="25th May - 1st June 2023"
-                    android:textSize="14dp" />
+                    android:textSize="14sp" />
 
             </LinearLayout>
 
@@ -89,7 +89,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Lock The Box Mumbai"
-                    android:textSize="16dp"
+                    android:textSize="16sp"
                     android:textStyle="bold"
                     />
 
@@ -97,7 +97,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="25th May - 1st June 2023"
-                    android:textSize="14dp" />
+                    android:textSize="14sp" />
 
             </LinearLayout>
 

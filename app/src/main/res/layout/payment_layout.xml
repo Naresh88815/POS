@@ -42,6 +42,8 @@
             android:layout_alignParentEnd="true"
             android:background="@drawable/button_outline"
             android:text="Hold"
+            android:fontFamily="@font/roboto_font"
+            android:textColor="@color/dark_blue"
             android:textAllCaps="false" />
 
     </RelativeLayout>
@@ -117,6 +119,7 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="1"
+                        android:textColor="@color/light_black"
                         android:textSize="20dp"/>
 
                     <androidx.appcompat.widget.AppCompatButton
@@ -128,6 +131,7 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="2"
+                        android:textColor="@color/light_black"
                         android:textSize="20dp"/>
 
                     <androidx.appcompat.widget.AppCompatButton
@@ -139,6 +143,7 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="3"
+                        android:textColor="@color/light_black"
                         android:textSize="20dp"/>
                 </RelativeLayout>
 
@@ -156,6 +161,7 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="4"
+                        android:textColor="@color/light_black"
                         android:textSize="20dp"/>
 
                     <androidx.appcompat.widget.AppCompatButton
@@ -167,6 +173,7 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="5"
+                        android:textColor="@color/light_black"
                         android:textSize="20dp"/>
 
                     <androidx.appcompat.widget.AppCompatButton
@@ -178,6 +185,7 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="6"
+                        android:textColor="@color/light_black"
                         android:textSize="20dp"/>
                 </RelativeLayout>
 
@@ -195,6 +203,7 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="7"
+                        android:textColor="@color/light_black"
                         android:textSize="20dp"/>
 
                     <androidx.appcompat.widget.AppCompatButton
@@ -206,6 +215,7 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="8"
+                        android:textColor="@color/light_black"
                         android:textSize="20dp"/>
 
                     <androidx.appcompat.widget.AppCompatButton
@@ -217,6 +227,7 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="9"
+                        android:textColor="@color/light_black"
                         android:textSize="20dp"/>
                 </RelativeLayout>
 
@@ -243,7 +254,8 @@
                         android:backgroundTint="@color/grey"
                         android:padding="16dp"
                         android:text="0"
-                        android:textSize="20dp"/>
+                        android:textColor="@color/light_black"
+                        android:textSize="20dp" />
 
                     <androidx.appcompat.widget.AppCompatButton
                         android:layout_width="120dp"

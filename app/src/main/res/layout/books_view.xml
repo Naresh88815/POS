@@ -58,7 +58,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Satish Chandra"
-                        android:textSize="14dp" />\
+                        android:textSize="14dp" />
 
                 </LinearLayout>
             </LinearLayout>
@@ -66,24 +66,24 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_margin="15dp"
-                android:layout_alignParentEnd="true">
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
+                    android:layout_gravity="end"
                     android:layout_marginTop="10dp"
-                    android:layout_gravity="end">
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="₹ "
-                        android:textSize="16dp"
                         android:textColor="@color/dark_blue"
-                        android:textStyle="bold"/>
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -96,64 +96,64 @@
                 </LinearLayout>
 
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:orientation="horizontal">
-
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
-                    android:orientation="horizontal"
-                    android:layout_marginRight="5dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="₹ "
-                        android:textSize="14dp"
-                        android:textColor="@color/dark_blue" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="119"
-                        android:textColor="@color/dark_blue"
-                        android:textSize="14dp" />
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <TextView
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="50"
-                        android:textSize="14dp"
-                        android:textColor="@color/green" />
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="5dp"
+                        android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="% "
-                        android:textColor="@color/green"
-                        android:textSize="14dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹ "
+                            android:textColor="@color/dark_blue"
+                            android:textSize="14dp" />
 
-                    <TextView
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="119"
+                            android:textColor="@color/dark_blue"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="OFF"
-                        android:textColor="@color/green"
-                        android:textSize="14dp" />
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="50"
+                            android:textColor="@color/green"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="% "
+                            android:textColor="@color/green"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="OFF"
+                            android:textColor="@color/green"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
-
-            </LinearLayout>
 
             </LinearLayout>
 

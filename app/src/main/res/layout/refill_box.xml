@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="360dp"
+    android:layout_width="match_parent"
     android:layout_height="436dp"
     android:background="@color/light_grey"
     android:orientation="vertical">
@@ -26,36 +26,47 @@
             android:background="@drawable/horizontal_line"
             android:backgroundTint="@color/grey" />
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:orientation="horizontal"
-            android:padding="10dp">
-
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:src="@drawable/img" />
-
-            <TextView
+            >
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                android:text="Odysseus Box"
-                android:textColor="@color/dark_blue"
-                android:textSize="16dp"
-                android:textStyle="bold" />
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/odysseus_box" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="Odysseus Box"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
             <EditText
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
                 android:background="@drawable/outlined_rectangle"
                 android:hint="Enter Quantity"
-                android:padding="10dp" />
-        </LinearLayout>
+                android:layout_margin="15dp"
+                android:padding="10dp"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+
+
 
     </LinearLayout>
 

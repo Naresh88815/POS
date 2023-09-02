@@ -337,7 +337,7 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
                             android:text="142"
-                            android:textColor="@color/red"
+                            android:textColor="@color/light_red"
                             android:textSize="18dp"
                             android:textStyle="bold" />
 
@@ -435,7 +435,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@drawable/button_outline"
+                android:background="@drawable/outlined_white_bg"
                 android:paddingLeft="20dp"
                 android:text="Add Discount"
                 android:textAllCaps="false"
@@ -445,7 +445,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
-                android:background="@color/light_grey"
+                android:background="@color/white"
                 android:hint="Mobile Number"
                 android:padding="10dp" />
 
@@ -458,7 +458,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:background="@color/light_grey"
+                    android:background="@color/white"
                     android:hint="Customer Type"
                     android:padding="10dp" />
 
@@ -479,8 +479,7 @@
                 <RelativeLayout
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
-
-                    android:background="@drawable/button_outline"
+                    android:background="@drawable/outlined_white_bg"
                     android:orientation="horizontal"
                     android:padding="8dp">
 
@@ -523,7 +522,7 @@
                     android:layout_alignParentStart="true"
                     android:layout_marginLeft="10dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/button_outline"
+                    android:background="@drawable/outlined_white_bg"
                     android:orientation="horizontal"
                     android:padding="8dp">
 
@@ -571,7 +570,7 @@
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:background="@drawable/button_outline"
+                    android:background="@drawable/outlined_white_bg"
                     android:orientation="horizontal"
                     android:padding="8dp">
 
@@ -612,7 +611,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_marginLeft="10dp"
-                    android:background="@drawable/button_outline"
+                    android:background="@drawable/outlined_white_bg"
                     android:orientation="horizontal"
                     android:paddingTop="8dp"
                     android:paddingBottom="8dp">

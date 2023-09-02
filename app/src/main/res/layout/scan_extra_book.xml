@@ -30,14 +30,13 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
             android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <EditText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/button_outline"
+                android:background="@drawable/outlined_white_bg"
                 android:hint="Enter ISBN"
                 android:padding="10dp"
                 android:layout_toStartOf="@+id/camBtn"
@@ -110,8 +109,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_outline"
-            android:backgroundTint="@color/grey"
+            android:background="@drawable/corner_cardview"
             android:layout_marginTop="10dp"
             android:text="SKIP"
             android:textSize="20sp"
