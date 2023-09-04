@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:background="@color/dark_yellow"
-        android:orientation="horizontal"
         android:padding="15dp">
 
         <LinearLayout
@@ -29,7 +28,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="20dp"
                 android:text="Order Summary"
                 android:textColor="@color/dark_blue"
                 android:textSize="20dp"
@@ -407,14 +406,13 @@
                         android:layout_alignParentEnd="true"
                         android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="18dp"
-                            android:layout_height="18dp"
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginTop="1dp"
-                            android:layout_marginEnd="-2dp"
-                            android:background="@drawable/currency_icon"
-                            android:backgroundTint="@color/white" />
+                            android:text="₹ "
+                            android:textSize="18dp"
+                            android:textColor="@color/white" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -436,10 +434,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/outlined_white_bg"
-                android:paddingLeft="20dp"
                 android:text="Add Discount"
                 android:textAllCaps="false"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:drawableLeft="@drawable/add_discount_icon"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -449,10 +447,6 @@
                 android:hint="Mobile Number"
                 android:padding="10dp" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp">
 
                 <EditText
                     android:layout_width="match_parent"
@@ -460,35 +454,29 @@
                     android:layout_alignParentStart="true"
                     android:background="@color/white"
                     android:hint="Customer Type"
-                    android:padding="10dp" />
-
-                <ImageButton
-                    android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/drop_down" />
-            </RelativeLayout>
+                    android:padding="10dp"
+                    android:drawableRight="@drawable/drop_down"/>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="2">
 
                 <RelativeLayout
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/outlined_white_bg"
                     android:orientation="horizontal"
-                    android:padding="8dp">
+                    android:padding="8dp"
+                    android:layout_weight="1">
 
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:layout_marginRight="30dp"
                         android:orientation="horizontal"
                         android:layout_alignParentStart="true">
 
@@ -519,12 +507,12 @@
                 <RelativeLayout
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
                     android:layout_marginLeft="10dp"
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/outlined_white_bg"
                     android:orientation="horizontal"
-                    android:padding="8dp">
+                    android:padding="8dp"
+                    android:layout_weight="1">
 
 
                     <LinearLayout
@@ -564,15 +552,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:layout_marginBottom="200dp">
+                android:layout_marginBottom="200dp"
+                android:weightSum="2">
 
                 <RelativeLayout
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
                     android:background="@drawable/outlined_white_bg"
                     android:orientation="horizontal"
-                    android:padding="8dp">
+                    android:padding="8dp"
+                    android:layout_weight="1">
 
 
                     <LinearLayout
@@ -614,7 +603,8 @@
                     android:background="@drawable/outlined_white_bg"
                     android:orientation="horizontal"
                     android:paddingTop="8dp"
-                    android:paddingBottom="8dp">
+                    android:paddingBottom="8dp"
+                    android:layout_weight="1">
 
 
                     <LinearLayout
@@ -636,7 +626,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
                             android:text="Influencer"
-                            android:textSize="18dp"
+                            android:textSize="18sp"
                             />
 
                     </LinearLayout>
@@ -654,15 +644,25 @@
 
     </ScrollView>
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true">
+
         <RelativeLayout
             android:id="@+id/orderSummaryPlaceOrderBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/corner_cardview"
             android:backgroundTint="@color/red"
-            android:padding="4dp"
-            android:layout_alignParentBottom="true">
+            android:padding="4dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -726,5 +726,8 @@
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
 </RelativeLayout>
 

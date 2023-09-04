@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="311dp"
-    android:background="@color/light_grey"
+    android:background="@color/grey"
     android:orientation="vertical">
 
     <LinearLayout
@@ -24,12 +24,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/horizontal_line"
-            android:backgroundTint="@color/grey" />
+            android:backgroundTint="@color/dark_grey" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/rectangle_cardview"
             android:backgroundTint="@color/white"
             android:hint="Pre-Order ID"
@@ -47,7 +47,7 @@
         android:backgroundTint="@color/red"
         android:text="SUBMIT"
         android:textColor="@color/white"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

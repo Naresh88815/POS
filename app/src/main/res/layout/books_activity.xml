@@ -15,7 +15,7 @@
         android:layout_alignParentStart="true"
         android:background="@color/dark_yellow"
         android:orientation="horizontal"
-        android:padding="15dp">
+        android:padding="10dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -32,43 +32,27 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
+                android:layout_marginLeft="20dp"
                 android:text="Books"
                 android:textColor="@color/dark_blue"
                 android:textSize="20dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/buttons_ltb"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
             android:background="@drawable/btn_bg"
-            android:padding="1dp"
-            android:gravity="right"
-            android:layout_alignParentEnd="true">
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="LTB Bangalore"
-                android:textStyle="bold"
-                android:textSize="16sp"
-                android:textColor="@color/black"
-                android:backgroundTint="@color/yellow"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"
-                android:textAllCaps="false"/>
-
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:src="@drawable/drop_down"
-                android:background="@color/yellow"
-                android:paddingLeft="10dp"
-                android:paddingRight="20dp"/>
-        </LinearLayout>
+            android:padding="10dp"
+            android:id="@+id/change_event_btn"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/drop_down"
+            android:text="LTB Banglore"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"/>
 
     </RelativeLayout>
 

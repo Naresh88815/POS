@@ -38,8 +38,6 @@
 
         </RelativeLayout>
 
-
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,7 +56,7 @@
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:background="@color/grey" />
+                    android:background="@color/dark_grey" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -140,7 +138,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/corner_cardview"
         android:backgroundTint="@color/red"
         android:orientation="horizontal"
@@ -150,26 +148,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginLeft="3dp">
+                android:layout_marginLeft="3dp"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="3"
                     android:textColor="@color/white"
-                    android:textSize="15dp"/>
+                    android:textSize="15dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
                     android:text="items"
                     android:textColor="@color/white"
-                    android:textSize="15dp"
-                    android:layout_marginLeft="2dp" />
+                    android:textSize="15dp" />
 
             </LinearLayout>
 
